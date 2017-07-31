@@ -1,3 +1,19 @@
+"# InfoUtile" 
+Nom: Info utile
+
+Auteur: Rosius DAKOUZO & Merryn TOOVI BOHLEN
+
+API implementé: newsAPI
+
+Endpoints implementé: articles
+
+Sous API implementé: new sciencist, polygon, recode, the next web;
+
+Dispotion: Un menu principal donnant acces a la page d'info choisie.
+
+Possibilté de : voir les dernieres information selon la categorie choisie, voir plus d'information sur un article specifique.
+
+
 This is a starter template for [Ionic](http://ionicframework.com/docs/) projects.
 
 ## How to use this template
@@ -24,4 +40,3 @@ $ ionic cordova run ios
 
 Substitute ios for android if not on a Mac.
 
-"# InfoUtile" 
