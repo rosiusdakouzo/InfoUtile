@@ -1,0 +1,18 @@
+<ion-header>
+    <ion-navbar>
+        <ion-title>
+            Polygon Info
+        </ion-title>
+    </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+    <ion-card *ngFor="let article of news.articles">
+        <div class="card-title">{{article.title}}</div>
+        <img [src]="article.urlToImage" />
+        <div class="card-subtitle">
+            <h3>Author:</h3>{{article.author}}</div>
+        <p>{{article.description}}</p>
+        <a href="{{article.url}}">Lire plus...</a>
+    </ion-card>
+</ion-content>

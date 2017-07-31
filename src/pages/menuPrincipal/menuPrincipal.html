@@ -1,0 +1,33 @@
+<ion-header>
+    <ion-navbar>
+        <ion-title>
+            Infos Utiles
+        </ion-title>
+    </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+    <ion-content class="card-background-page">
+        <h1 class="menu">Menu principal</h1>
+        <ion-card (tap)="openInfoNS()">
+            <img src="../assets/img/nsl-logo.png" />
+            <div class="card-description">Toutes l'actualité sur la science</div>
+        </ion-card>
+
+        <ion-card (tap)="openInfoPolygon()">
+            <img src="../assets/img/polygon-logo.jpg" />
+            <div class="card-description">Toute l'actualité sur les jeux videos</div>
+        </ion-card>
+
+        <ion-card (tap)="openInfoRecode()">
+            <img src="../assets/img/recode-logo.png" />
+            <div class="card-description">Toute l'actualité sur l'informatique</div>
+        </ion-card>
+
+        <ion-card (tap)="openInfoTNW()">
+            <img src="../assets/img/tnw-logo.jpg" (tap)="openInfoTNW()" />
+            <div class="card-description">Toute l'actualité sur la technologie</div>
+        </ion-card>
+
+    </ion-content>
+</ion-content>
